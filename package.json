@@ -1,0 +1,36 @@
+{
+  "name": "electron-ng2-pouchdb",
+  "version": "1.0.0",
+  "description": "Electron - Angular 2 - PouchDB",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@angular/animations": "^4.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "plugin-typescript": "^5.3.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.4.1",
+    "systemjs": "0.19.39",
+    "typescript": "^2.1.4",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "electron": "~1.6.11",
+    "electron-builder": "^19.16.2",
+    "pouchdb": "^6.1.0",
+    "pouchdb-adapter-node-websql": "^6.1.0"
+  },
+  "author": "Leandro Ibarra <leandro@braintly.com>",
+  "license": "MIT"
+}

@@ -4,7 +4,8 @@
   "description": "Electron - Angular 2 - PouchDB",
   "main": "src/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "postinstall": "electron-rebuild"
   },
   "dependencies": {
     "@angular/animations": "^4.0.0",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "electron": "~1.6.11",
     "electron-builder": "^19.16.2",
+    "electron-rebuild": "^1.4.0",
     "pouchdb": "^6.1.0",
     "pouchdb-adapter-node-websql": "^6.1.0"
   },
